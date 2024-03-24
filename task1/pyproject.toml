@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-dsml-mod-2-hw-task-1"
+version = "0.1.0"
+description = "work with postges"
+authors = ["RomanKhakhula <rkhakhula@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+psycopg2-binary = "^2.9.9"
+psycopg2 = "^2.9.9"
+Faker = "^24.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
